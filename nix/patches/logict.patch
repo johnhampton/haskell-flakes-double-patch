@@ -1,0 +1,22 @@
+From 95ab8b342007e79b02a5de27e829728fbc630659 Mon Sep 17 00:00:00 2001
+From: Bodigrim <andrew.lelechenko@gmail.com>
+Date: Sun, 10 Sep 2023 11:14:17 +0100
+Subject: [PATCH] Allow tasty-1.5
+
+---
+ logict.cabal | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/logict.cabal b/logict.cabal
+index ce15765..3adcc48 100644
+--- a/logict.cabal
++++ b/logict.cabal
+@@ -72,7 +72,7 @@ test-suite logict-tests
+     logict,
+     mtl,
+     transformers,
+-    tasty <1.5,
++    tasty <1.6,
+     tasty-hunit <0.11
+ 
+   hs-source-dirs: test
